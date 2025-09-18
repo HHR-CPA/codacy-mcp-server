@@ -23,9 +23,8 @@ export class MacCodacyCli extends CodacyCli {
       return;
     }
 
-    // CLI not found, attempt to install it
-    await this.install();
-    return;
+    // CLI not found, throw error
+    throw new Error(`Codacy CLI not found. Please install it first.`);
   }
 
   private async preflightCodacyCli(): Promise<void> {
