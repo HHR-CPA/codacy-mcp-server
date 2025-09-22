@@ -158,6 +158,11 @@ const toolDefinitions: { [key in ToolKeys]: ToolDefinition } = {
     handler: Handlers.cliAnalyzeHandler,
     noAuth: true,
   },
+  codacy_cli_install: {
+    tool: Tools.cliInstallTool,
+    handler: Handlers.cliInstallHandler,
+    noAuth: true,
+  },
   codacy_setup_repository: {
     tool: Tools.setupRepositoryTool,
     handler: Handlers.setupRepositoryHandler,
