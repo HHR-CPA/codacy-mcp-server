@@ -1,6 +1,7 @@
 {
   "name": "@codacy/codacy-mcp",
   "version": "0.0.1",
+  "mcpName": "io.github.codacy/codacy-mcp-server",
   "description": "Codacy MCP server",
   "license": "MIT",
   "author": "Codacy",
